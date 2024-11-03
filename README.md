@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WildSpotter
 
-## Getting Started
+WildSpotter is a biodiversity conservation tool that maps real-time wildlife sightings to support data-driven conservation efforts. Built with Next.js, TypeScript, and Leaflet, WildSpotter emphasizes strategic partnerships for biodiversity conservation, aligning with UN SDG 17.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+WildSpotter tracks and visualizes species sightings across diverse regions. This tool aims to foster collaboration between conservation organizations, governments, and communities by providing a platform to share and analyze wildlife data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Interactive Map**: Displays wildlife sightings using geolocation markers.
+- **Real-Time Data Fetching**: Dynamically loads sightings from a custom API endpoint.
+- **Community Contribution**: Facilitates data collection from local communities and organizations.
+- **Responsive Design**: Optimized for viewing on both mobile and desktop.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Next.js** (React framework) for fast, server-rendered web applications.
+- **TypeScript** for type-safe, maintainable code.
+- **Leaflet** and **React-Leaflet** for interactive map functionality.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Launch the app**: Start the server with `bun run dev`.
+2. **View Map**: Access the main map interface to view wildlife sightings.
+3. **Interact with Markers**: Click on map markers to learn more about each sighting (species name, location).
